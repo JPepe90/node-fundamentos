@@ -62,3 +62,4 @@ El CallbacksHell sucede cuando tenemos codigo spaguetti de callbacks. Esto se re
 Son clases globales. Las promesas nos permiten utilizar estados resolve y reject con una sintaxis sencilla para manejar la sincronia de nuestro codigo. utilizando .then manejamos el resolve y con los .catch manejamos los errores.
 
 ## Async/Await
+Una nueva sintaxis que nos permite hacer operaciones asincronas de manera secuencial. para ello utilizamos la palabra reservada async antes de las function y con la palabra await antes de los procesos que deban esperar su resolucion.
