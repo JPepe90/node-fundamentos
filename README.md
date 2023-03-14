@@ -57,3 +57,8 @@ mas alla de que tengan tiempos distintos y evitamos que el asincronismo
 altere el funcionamiento del programa, estos los especifico dentro de los parametros de llamado a las funciones y me sirven para manejar la sincronia.
 
 El CallbacksHell sucede cuando tenemos codigo spaguetti de callbacks. Esto se resuelve con funciones recursivas que hacen la misma instruccion(ver ejemplo en async/callbackshell.js)
+
+## Promesas
+Son clases globales. Las promesas nos permiten utilizar estados resolve y reject con una sintaxis sencilla para manejar la sincronia de nuestro codigo. utilizando .then manejamos el resolve y con los .catch manejamos los errores.
+
+## Async/Await
