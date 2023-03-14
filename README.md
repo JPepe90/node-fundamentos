@@ -26,7 +26,7 @@ El bucle general que se encarga de recibir peticiones y eventos y almacenarlas e
 Esta cola de tareas almacenará los procesos que deberan ser trabajados de forma asíncrona individualmente. Cada uno de estos sera trabajado en un hilo individual como una Thread. Cuando haya sido completado su proceso será devuelto a la Thread pool y de alli al event loop que se encargará de devolver la respuesta al requirente que esté esperando. Todo esto sucede de forma asíncrona por lo que cada Thread puede demorar tiempos distintos.
 
 ## Nodemon 
-Herramiento que nos sirve para correr el codigo que estamos trabajaando cada vez que lo salvaamos paraa verificar que la compilacion este correcta y debuggear errores. Para ejecutarlo desde la consola de bash en VSCode escribimos: nodemon <path to file>. Muy practico para ambientes de desarrollo.
+Herramienta que nos sirve para correr el codigo que estamos trabajaando cada vez que lo salvaamos paraa verificar que la compilacion este correcta y debuggear errores. Para ejecutarlo desde la consola de bash en VSCode escribimos: nodemon <path to file>. Muy practico para ambientes de desarrollo.
 
 ## PM2
 PM2 es una herramienta de monitoreo de entornos de produccion. Permite monitorar el funcionamiento de diferentes herramientas, distribuir o balancearla carga, revisar logs, etc. para ejecutarlo:
@@ -51,3 +51,9 @@ pm2 stop <path to file>
 o
 pm2 stop <process id>
 
+## Callbacks y CallbacksHell
+Utilizando los callbacks hago que las funciones se ejecuten en orden
+mas alla de que tengan tiempos distintos y evitamos que el asincronismo 
+altere el funcionamiento del programa, estos los especifico dentro de los parametros de llamado a las funciones y me sirven para manejar la sincronia.
+
+El CallbacksHell sucede cuando tenemos codigo spaguetti de callbacks. Esto se resuelve con funciones recursivas que hacen la misma instruccion(ver ejemplo en async/callbackshell.js)
