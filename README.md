@@ -94,3 +94,6 @@ console.group(grupo) = Iniciar grupo o subgrupo de logs
 console.groupEnd(grupo) = Finalizar grupo o subgrupo de logs
 console.count(elemento) = Sumar uno al elemento contado
 console.countReset(elemento) = resetear el elemento contado
+
+## Procesos Hijo (child-process)
+Vemos como importando los modulos exec o spawn podemos ejecutar modulos en forma secundaria al hilo principal sin dejar de correr el primario.
