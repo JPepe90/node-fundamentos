@@ -106,3 +106,7 @@ todas las funciones para extraer informacion del sistema operativo y sistema.
 
 ## Process
 Modulo process y escucha de eventos.
+
+## NPM y modulo de paquetes
+url: https://www.npmjs.com/
+Es recomendable usar paquetes aunque sea para cosas muy sencillas ya que está considerado para casos de uso raros y poco comunes.
