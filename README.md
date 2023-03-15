@@ -63,3 +63,34 @@ Son clases globales. Las promesas nos permiten utilizar estados resolve y reject
 
 ## Async/Await
 Una nueva sintaxis que nos permite hacer operaciones asincronas de manera secuencial. para ello utilizamos la palabra reservada async antes de las function y con la palabra await antes de los procesos que deban esperar su resolucion.
+
+## Funciones de Consola
+console.log(data) = log de informacion en consola
+console.info(data) = similar al log pero con mas informacion en algunos casos
+console.error(data) = notificacion de errores de forma mas visual en algunas consolas
+console.warn(data) = alertas de forma visual en algunas consolas
+console.table(tabla) = sirve para ver de forma grafica elementos que tengan mas 2 dimensiones o esten expresados de una forma similar. Ejemeplo: 
+var tabla = [
+  {
+    a: 1,
+    b: 'z'
+  },
+  {
+    a: 2,
+    b: 'Otra'
+  }
+];
+console.table(tabla);
+
+Devuelve en consola:
+┌─────────┬───┬────────┐
+│ (index) │ a │   b    │6
+├─────────┼───┼────────┤
+│    0    │ 1 │  'z'   │
+│    1    │ 2 │ 'Otra' │
+└─────────┴───┴────────┘
+
+console.group(grupo) = Iniciar grupo o subgrupo de logs
+console.groupEnd(grupo) = Finalizar grupo o subgrupo de logs
+console.count(elemento) = Sumar uno al elemento contado
+console.countReset(elemento) = resetear el elemento contado

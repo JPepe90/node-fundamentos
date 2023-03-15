@@ -1,0 +1,9 @@
+Hola yo soy un archivo de ejemplo
+Y tengo varias lineas
+Esta es otra lineas
+y otra lineas
+y otra
+y ...
+...
+
+fin
