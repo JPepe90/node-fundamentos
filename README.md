@@ -100,3 +100,9 @@ Vemos como importando los modulos exec o spawn podemos ejecutar modulos en forma
 
 ## HTTP
 Importacion del modulo y creacion del servidor. Tambien vimos el manejo del request y response basico.
+
+## OS
+todas las funciones para extraer informacion del sistema operativo y sistema.
+
+## Process
+Modulo process y escucha de eventos.
