@@ -97,3 +97,6 @@ console.countReset(elemento) = resetear el elemento contado
 
 ## Procesos Hijo (child-process)
 Vemos como importando los modulos exec o spawn podemos ejecutar modulos en forma secundaria al hilo principal sin dejar de correr el primario.
+
+## HTTP
+Importacion del modulo y creacion del servidor. Tambien vimos el manejo del request y response basico.
