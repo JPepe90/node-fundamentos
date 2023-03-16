@@ -110,3 +110,13 @@ Modulo process y escucha de eventos.
 ## NPM y modulo de paquetes
 url: https://www.npmjs.com/
 Es recomendable usar paquetes aunque sea para cosas muy sencillas ya que está considerado para casos de uso raros y poco comunes.
+
+## Modulos
+require() y export default / import
+
+## Paquetes comunes recomendadps:
+
+- BCrypt (hashear datos y criptografia)
+- Moment (manjo de fechas)
+- Sharp (manejo de imagenes)
+
