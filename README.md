@@ -120,3 +120,8 @@ require() y export default / import
 - Moment (manjo de fechas)
 - Sharp (manejo de imagenes)
 
+## Buffers
+Son datos que vienen y van en crudo. Podemos trabajar directamente en memoria.
+
+## Stream
+Metodos que sirven para leer o escribir archivos de gran tamaño por partes. va trabajando el total del archivo a procesar por chunks (cortes), en archivos de pequeño tamaño no vamos a notar el cambio pero ficheros de gran tamaño es muy notable.
