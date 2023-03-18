@@ -125,3 +125,25 @@ Son datos que vienen y van en crudo. Podemos trabajar directamente en memoria.
 
 ## Stream
 Metodos que sirven para leer o escribir archivos de gran tamaño por partes. va trabajando el total del archivo a procesar por chunks (cortes), en archivos de pequeño tamaño no vamos a notar el cambio pero ficheros de gran tamaño es muy notable.
+
+# Trucos 
+
+## Benchmarking
+- console.time('nombre) & console.timeEnd('nombre) me permiten mostrar en consola el tiempo que se demora en llegar de la instruccion time a la timeEnd.
+
+console.time('funcion asincrona');
+// codigo
+console.timeEnd('funcion asincrona');
+
+## Debugger
+Se activa desde la consola de node mediante el comando:
+
+node --inspect <path to file>
+
+luego abrimos el servidor local http desde el navegador en la direccion y puerto:
+
+localhost:<port>
+
+y en una segunda pesataña abrimos en inspector nativo de google con la ruta:
+
+chrome://inspect
