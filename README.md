@@ -147,3 +147,12 @@ localhost:<port>
 y en una segunda pesataña abrimos en inspector nativo de google con la ruta:
 
 chrome://inspect
+
+## Error First Callback
+En una funcion de callback, el primer parametro deberia ser el error. Esto es una convencion ya que siempre se considera que todo pueda fallar. De esta forma lo general es que el callback sea el ultimo parametro y el error era el primer parametro.
+
+## Scraping
+Ejemplos de navegacion con codigo en el browser con puppeteer.
+
+## Automatizacion de procesos
+Ver la seccion de automatizacion con Gulp!
